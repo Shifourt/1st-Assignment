@@ -15,6 +15,10 @@ button{
     border-radius: 5px;
     background: white;
 }
+.btn-primary:hover{
+    color: #FFFFFF;
+    background: #FD6E0A;   
+}
 main {
     max-width: 1140px;
     margin: 0 auto;
