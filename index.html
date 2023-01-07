@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/icons/smoke.png" type="images/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/global.css">
+    <script src="https://kit.fontawesome.com/36d7649642.js" crossorigin="anonymous"></script>
     <title>New Year</title>
 </head>
 <body>
     <header>
         <!-- Navigation-->
         <nav>
-            <h1 class="logo">New Year</h1>
+            <h1 class="logo"><i class="fa-solid fa-house"></i> New Year</h1>
             <ul>
                 <li>Portfolio</li>
                 <li>Blogs</li>
@@ -35,17 +35,17 @@
     <!-- Main body -->
     <main>
         <!-- Main body first section -->
-        <section class="failures">
+        <section class="failures-section">
             <img src="./images/person.png" alt="">
             <div class="informations">
-                <h2>My failures of <span>previous year</span></h2>
-                <p></p>
-                <ul>
-                    <li>Contrary to popular belief, is not simply.</li>
-                    <li>Contrary to popular belief.</li>
-                    <li>Contrary to popular , is not simply.</li>
-                    <li>Contrary to popular belief, is not simply.</li>
-                    <li>Contrary to popular simply.</li>
+                <h2 class="failures-title">My failures of <span>previous year</span></h2>
+                <p class="failures-description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+                <ul class="failures-information">
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular belief, is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular belief.</li>
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular , is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular belief, is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i> Contrary to popular simply.</li>
                 </ul>
             </div>
         </section>
@@ -57,35 +57,35 @@
             <ul class="plans">
                 <li class="plan">
                     <img src="./images/icons/web.png" alt="">
-                    <h3>Web Development</h3>
-                    <p>I want to start</p>
+                    <h3 class="plan-title">Web Development</h3>
+                    <p class="plan-subtitle">I want to start</p>
                 </li>
                 <li class="plan">
                     <img src="./images/icons/js.png" alt="">
-                    <h3>Javascript</h3>
-                    <p>I want to learn</p>
+                    <h3 class="plan-title">Javascript</h3>
+                    <p class="plan-subtitle">I want to learn</p>
                 </li>
                 <li class="plan">
                     <img src="./images/icons/smoke.png" alt="">
-                    <h3>Smoking Habit</h3>
-                    <p>I want to end</p>
+                    <h3 class="plan-title">Smoking Habit</h3>
+                    <p class="plan-subtitle">I want to end</p>
                 </li>
                 <li class="plan">
                     <img src="./images/icons/ecom.png" alt="">
-                    <h3>ecommerce</h3>
-                    <p>I want to develop</p>
+                    <h3 class="plan-title">ecommerce</h3>
+                    <p class="plan-subtitle">I want to develop</p>
                 </li>
             </ul>
         </section>
         <!-- Main body second section end -->
 
         <!-- Main body third section -->
-        <section class="mindset">
-            <div class="text">
-                <h2>Always keep a positive mindset</h2>
+        <section class="mindset-section">
+            <div class="mindset-information">
+                <h2 class="mindset-title">Always keep a positive mindset</h2>
                 <button class="btn-primary">Call Now</button>
             </div>
-            <div class="container"></div>
+            <div class="color-overlay"></div>
         </section>
         <!-- Main body third section end -->
     </main>
@@ -93,29 +93,31 @@
 
     <!-- Footer body -->
     <footer>
-        <!-- Footer information part -->
-        <div class="socials">
-            <h2>Future</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-            <p>Email : info@gmail.com</p>
-            <p>Phone : 01500 00 00 00</p>
-            <div class="social-media">
-                <img src="./images/icons/fb.png" alt="">
-                <img src="./images/icons/twitter.png" alt="">
-                <img src="./images/icons/youtube.png" alt="">
+        <div class="footer-contents">
+            <!-- Footer information part -->
+            <div class="socials">
+                <h2 class="socials-title">Future</h2>
+                <p class="socials-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+                <p>Email : info@gmail.com</p>
+                <p>Phone : 01500 00 00 00</p>
+                <div class="social-media">
+                    <img src="./images/icons/fb.png" alt="">
+                    <img src="./images/icons/twitter.png" alt="">
+                    <img src="./images/icons/youtube.png" alt="">
+                </div>
             </div>
-        </div>
-        <!-- Footer information part -->
+            <!-- Footer information part -->
 
-        <!-- Footer subscription part -->
-        <div class="subscription">
-            <h2>Subscribe</h2>
-            <form action="">
-                <input type="email" placeholder="Enter Your Email">
-                <input class="btn-primary" type="button" value="Subscribe">
-            </form>
+            <!-- Footer subscription part -->
+            <div class="subscription">
+                <h2>Subscribe</h2>
+                <form class="subscription-form">
+                    <input class="email" type="email" placeholder="Enter Your Email">
+                    <input class="btn-primary" type="button" value="Subscribe">
+                </form>
+            </div>
+            <!-- Footer subscription part -->
         </div>
-        <!-- Footer subscription part -->
     </footer>    
     <!-- Footer body end -->
 </body>
